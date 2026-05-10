@@ -1,0 +1,10 @@
+#topscroll-zone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    background: transparent;
+}

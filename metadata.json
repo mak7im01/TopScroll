@@ -1,0 +1,18 @@
+{
+    "name": "TopScroll",
+    "libraryLogo": "logo.svg",
+    "image": "logo.svg",
+    "banner": "banner.svg",
+    "author": "dobryjigrok",
+    "description": "Клик по левому краю экрана — скролл наверх. Правый клик — скролл вниз",
+    "version": "1.0.0",
+    "css": "style.css",
+    "type": "script",
+    "script": "script.js",
+    "tags": [
+        "utility",
+        "scroll"
+    ],
+    "installSource": "local",
+    "id": "1b401b4499da1fe6592f275b"
+}
