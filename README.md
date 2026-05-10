@@ -9,4 +9,4 @@
 - **Правый клик** по левому краю — прокрутить страницу вниз
 
 
-## ![TopScroll](https://github.com/mak7im01/topscroll/blob/master/TopScroll.gif)
+## ![TopScroll](https://github.com/mak7im01/topscroll/blob/main/TopScroll.gif)
