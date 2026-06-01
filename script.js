@@ -43,14 +43,24 @@ function initZone() {
 }
 
 function getScrollableElement() {
+    let best = null;
+    let bestRange = 0;
+
     const candidates = document.querySelectorAll('*');
     for (const el of candidates) {
         const overflowY = getComputedStyle(el).overflowY;
-        if ((overflowY === 'auto' || overflowY === 'scroll') && el.scrollHeight > el.clientHeight) {
-            return el;
+        if (overflowY !== 'auto' && overflowY !== 'scroll') continue;
+
+        const range = el.scrollHeight - el.clientHeight;
+        if (range > bestRange) {
+            bestRange = range;
+            best = el;
         }
     }
-    return window;
+
+    // Возвращаем элемент с наибольшим диапазоном прокрутки,
+    // чтобы не попасть на боковую панель с плейлистами
+    return best || window;
 }
 
 function doScrollTo(target, position) {

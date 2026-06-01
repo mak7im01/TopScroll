@@ -5,7 +5,7 @@
     "banner": "banner.svg",
     "author": "dobryjigrok",
     "description": "Клик по левому краю экрана — скролл наверх. Правый клик — скролл вниз",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "css": "style.css",
     "type": "script",
     "script": "script.js",
@@ -14,5 +14,6 @@
         "scroll"
     ],
     "installSource": "local",
-    "id": "1b401b4499da1fe6592f275b"
+    "id": "1b401b4499da1fe6592f275b",
+    "storeAddonId": "9aa99649-678b-4119-9217-20ae5199d7d0"
 }
